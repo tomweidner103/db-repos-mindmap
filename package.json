@@ -12,6 +12,7 @@
   },
   "author": "mindmap",
   "license": "ISC",
+  "private": false,
   "bugs": {
     "url": "https://github.com/tomweidner103/db-repos-mindmap/issues"
   },
