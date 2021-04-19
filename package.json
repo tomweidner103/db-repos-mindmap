@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/tomweidner103/db-repos-mindmap/issues"
   },
-  "homepage": "https://github.com/tomweidner103/db-repos-mindmap#readme"
+  "homepage": "https://github.com/tomweidner103/db-repos-mindmap#readme",
+  "dependencies": {
+    "pg-promise": "^10.10.1"
+  }
 }
