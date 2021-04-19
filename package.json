@@ -1,5 +1,5 @@
 {
-  "name": "@mindmap/db-repos",
+  "name": "db-repos-mindmap",
   "version": "1.0.0",
   "description": "databse entries and sql calls for mindmap",
   "main": "index.js",
