@@ -11,11 +11,7 @@
     "url": "git+https://github.com/tomweidner103/db-repos-mindmap.git"
   },
   "author": "mindmap",
-  "license": "MIT",
-  "private": false,
-  "publishConfig": {
-    "access": "public"
-  },
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/tomweidner103/db-repos-mindmap/issues"
   },
