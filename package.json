@@ -1,11 +1,19 @@
 {
   "name": "db-repos-mindmap",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "databse entries and sql calls for mindmap",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "test"
+    "lint": "tslint -p .",
+    "build": "rm -rf dist && tsc -p .",
+    "test": "echo \"no tests\"",
+    "dev": "tsc -p . --watch"
   },
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tomweidner103/db-repos-mindmap.git"
@@ -19,5 +27,9 @@
   "homepage": "https://github.com/tomweidner103/db-repos-mindmap#readme",
   "dependencies": {
     "pg-promise": "^10.10.1"
+  },
+  "devDependencies": {
+    "tslint": "^6.1.3",
+    "typescript": "^4.2.4"
   }
 }

@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "target": "es2018",
+        "module": "commonjs",
+        "lib": ["es2015"],
+        "sourceMap": true,
+        "removeComments": true,
+        "strict": true,
+        "noImplicitAny": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "esModuleInterop": true,
+        "preserveSymlinks": true,
+        "outDir": "dist",
+        "declaration": true
+    },
+    "include": ["src"],
+    "files": ["types.d.ts"]
+}
