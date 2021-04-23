@@ -1,6 +1,6 @@
 {
   "name": "db-repos-mindmap",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "databse entries and sql calls for mindmap",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
