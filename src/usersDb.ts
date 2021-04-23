@@ -1,5 +1,3 @@
-import { db } from '../connection'
-
 export interface IUser {
     id: string;
     name: string;
@@ -10,8 +8,7 @@ type UserParams = {
     name: string;
 };
 
-export function create(params: UserParams, t: typeof db): IUser | null {
-    console.log(t)
+export function create(params: UserParams): IUser | null {
     return {
         id: params.id,
         name: params.name
