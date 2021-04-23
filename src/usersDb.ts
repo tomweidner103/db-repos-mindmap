@@ -1,4 +1,4 @@
-import { db } from '..types'
+import { db } from '../types'
 
 export interface User {
     id: string;
