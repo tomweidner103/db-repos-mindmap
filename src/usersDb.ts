@@ -1,6 +1,6 @@
-import { db } from '../types'
+import { db } from '../connection'
 
-export interface User {
+export interface IUser {
     id: string;
     name: string;
 }
@@ -8,14 +8,12 @@ export interface User {
 type UserParams = {
     id: string;
     name: string;
-}
+};
 
-type Task = {
-    func: (param: string) => string = function {
-        return param
+export function create(params: UserParams, t: typeof db): IUser | null {
+    console.log(t)
+    return {
+        id: params.id,
+        name: params.name
     }
-}
-
-export function create(data: UserParams, t: Task): Promise<string> {
-    return t.func(data.id)
-}
+};
