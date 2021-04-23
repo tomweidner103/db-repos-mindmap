@@ -1,6 +1,5 @@
-import { db } from '../types'
-const funcOne = function (): string {
-    return 'What is happening'
-}
+import * as usersDb from './usersDb'
 
-export { funcOne, db }
+export {
+    usersDb
+}
